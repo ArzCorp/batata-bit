@@ -10,7 +10,9 @@ module.exports = {
         "blue-soft": "#E7F5FF",
         "black-warm": "#201E1C",
         "black-warm-100": "#282623",
-        "gray-50": "#BABABA",
+        "gray-50": "#B5B0AC",
+        "gray-150": "#757575",
+        "gray-250": "#808080",
         "white-off": "#FAF8F7",
       },
       fontFamily: {
@@ -39,7 +41,9 @@ module.exports = {
         header: "334px",
       },
       backgroundImage: (theme) => ({
-        bitcoin: "url('/assets/img/bitcoin.jpg')",
+        bitcoin: "url('/assets/img/Bitcoin.jpg')",
+        "trending-down": "url('/assets/icons/trending-down.svg')",
+        "trending-up": "url('/assets/icons/trending-up.svg')",
       }),
     },
   },
