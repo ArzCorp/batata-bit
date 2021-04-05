@@ -2,9 +2,9 @@ import Style from "./index.module.css";
 
 const ExchangeRate = () => {
   return (
-    <section className="font-dm-sans bg-white-off">
+    <section className="font-dm-sans bg-white-off pt-14 pb-20">
       <span
-        className={`${Style.backgroundImage} block bg-bitcoin w-48 h-48 mt-12 mb-10 mx-auto`}
+        className={`${Style.backgroundImage} block bg-bitcoin w-48 h-48 mb-10 mx-auto`}
       ></span>
       <div className="text-center">
         <h2 className="font-bold text-2xl leading-6 mb-6">
