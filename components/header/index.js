@@ -1,3 +1,5 @@
+import style from "./index.module.css";
+
 import Link from "next/link";
 
 const Header = () => {
@@ -19,13 +21,17 @@ const Header = () => {
           tendencias.
         </p>
       </div>
-      <div className="bg-white-off p-4 absolute -bottom-6 left-12 flex justify-between items-center border-1 shadow-lg border-black-warm">
-        <Link href="/">
-          <a className="text-black-warm font-bold">Conoce Nuestros Planes</a>
-        </Link>
-        <figure className="ml-3">
-          <img src="/assets/icons/arrow-down.svg" alt="" />
-        </figure>
+      <div
+        className={`${style.iconFloat} bg-white-off p-4 absolute -bottom-6 min-w-min border-1 shadow-lg border-black-warm`}
+      >
+        <div className="w-60 flex justify-between items-center">
+          <Link href="/">
+            <a className="text-black-warm font-bold">Conoce Nuestros Planes</a>
+          </Link>
+          <figure className="ml-3">
+            <img src="/assets/icons/arrow-down.svg" alt="" />
+          </figure>
+        </div>
       </div>
     </header>
   );
