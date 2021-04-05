@@ -1,5 +1,6 @@
 import Header from "../components/header";
 import ExchangeRate from "../components/exchange-rate";
+import ProductDetail from "../components/product-detail";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Header />
       <main>
         <ExchangeRate />
+        <ProductDetail />
       </main>
     </>
   );
