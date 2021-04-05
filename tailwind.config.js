@@ -44,6 +44,7 @@ module.exports = {
         bitcoin: "url('/assets/img/Bitcoin.jpg')",
         "trending-down": "url('/assets/icons/trending-down.svg')",
         "trending-up": "url('/assets/icons/trending-up.svg')",
+        "bitcoin-baby": "url('/assets/img/bitcoinbaby.jpg')",
       }),
     },
   },

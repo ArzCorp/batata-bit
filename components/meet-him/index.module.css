@@ -1,0 +1,12 @@
+.imgBg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 720px) {
+  .imgBg {
+    color: #201e1c;
+    background-image: url("/assets/img/bitcon-baby-xxl.jpg");
+  }
+}
