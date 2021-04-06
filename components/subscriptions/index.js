@@ -18,6 +18,18 @@ const Subscription = () => {
           price="99"
           saving="129"
         />
+        <SubscriptionCard
+          recommended
+          typePay="Pago Anual"
+          price="499"
+          saving="899"
+        />
+        <SubscriptionCard
+          recommended
+          typePay="Pago Anual"
+          price="199"
+          saving="229"
+        />
       </div>
     </section>
   );
