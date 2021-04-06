@@ -12,7 +12,12 @@ const Subscription = () => {
         </p>
       </div>
       <div>
-        <SubscriptionCard recommended />
+        <SubscriptionCard
+          recommended
+          typePay="Pago Anual"
+          price="99"
+          saving="129"
+        />
       </div>
     </section>
   );
