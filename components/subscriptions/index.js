@@ -7,7 +7,7 @@ const Subscription = () => {
         <h2 className="font-bold text-2xl text-black-warm leading-6">
           Escoge el plan que mejor se ajuste a ti.
         </h2>
-        <p className="font-medium text-sm text-gray-150 leading-4 mt-6">
+        <p className="font-medium text-sm text-gray-150 leading-4 mt-6 mb-12">
           Cualquier plan te da acceso completo a nuestra plataforma.
         </p>
       </div>
