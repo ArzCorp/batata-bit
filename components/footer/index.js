@@ -15,8 +15,12 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <figure>
-          <img src="/assets/icons/brand-copy.svg" alt="logo 2021" />
+        <figure className="md:w-32 md:h-24">
+          <img
+            src="/assets/icons/brand-copy.svg"
+            alt="logo 2021"
+            className="w-full"
+          />
         </figure>
       </div>
     </footer>
