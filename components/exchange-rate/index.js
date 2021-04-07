@@ -19,21 +19,23 @@ const ExchangeRate = () => {
         <h2 className="font-bold mb-3 text-lg text-orange-bitcoin leading-6 text-left">
           Monedas
         </h2>
-        <div
-          className={`${Style.grid} bg-white font-inter text-base rounded-xl pl-4 px-2 text-gray-50 font-normal`}
-        >
-          <p className="py-3 font-medium">Bitcoin</p>
-          <p className="py-3 pr-2 text-right text-gray-150">$1.96</p>
-          <span className="my-auto m-3 block text-right bg-trending-down w-3 h-3"></span>
-          <p className="py-3 font-medium">Ethereum</p>
-          <p className="py-3 pr-2 text-right text-gray-150">$0.07</p>
-          <span className="my-auto m-3 block text-right bg-trending-up w-3 h-3"></span>
-          <p className="py-3 font-medium">Ripple</p>
-          <p className="py-3 pr-2 text-right text-gray-150">$2.15</p>
-          <span className="my-auto m-3 block text-right bg-trending-down w-3 h-3"></span>
-          <p className="py-3 font-medium">Stellar</p>
-          <p className="py-3 pr-2 text-right text-gray-150">$4.96</p>
-          <span className="my-auto m-3 block text-right bg-trending-down w-3 h-3"></span>
+        <div className="max-w-full md:max-w-min mx-auto">
+          <div
+            className={`${Style.grid} bg-white font-inter w-48 text-base rounded-xl pl-4 px-2 text-gray-50 font-normal`}
+          >
+            <p className="py-3 font-medium">Bitcoin</p>
+            <p className="py-3 pr-2 text-right text-gray-150">$1.96</p>
+            <span className="my-auto m-3 block text-right bg-trending-down w-3 h-3"></span>
+            <p className="py-3 font-medium">Ethereum</p>
+            <p className="py-3 pr-2 text-right text-gray-150">$0.07</p>
+            <span className="my-auto m-3 block text-right bg-trending-up w-3 h-3"></span>
+            <p className="py-3 font-medium">Ripple</p>
+            <p className="py-3 pr-2 text-right text-gray-150">$2.15</p>
+            <span className="my-auto m-3 block text-right bg-trending-down w-3 h-3"></span>
+            <p className="py-3 font-medium">Stellar</p>
+            <p className="py-3 pr-2 text-right text-gray-150">$4.96</p>
+            <span className="my-auto m-3 block text-right bg-trending-down w-3 h-3"></span>
+          </div>
         </div>
         <div className="max-w-max bg-orange-soft mt-4 p-2 mx-auto">
           <h3>
