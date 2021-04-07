@@ -28,6 +28,8 @@ module.exports = {
         "2/3": "66.666667%",
         "3/4": "75%",
         full: "100%",
+        min: "min-content",
+        max: "max-content",
       },
       minHeight: {
         0: "0",
@@ -39,6 +41,8 @@ module.exports = {
         "3/4": "75%",
         full: "100%",
         header: "334px",
+        min: "min-content",
+        max: "max-content",
       },
       backgroundImage: (theme) => ({
         bitcoin: "url('/assets/img/Bitcoin.jpg')",

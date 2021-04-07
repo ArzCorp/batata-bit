@@ -1,3 +1,4 @@
+import Carousel from "../carousel";
 import SubscriptionCard from "./subscription-card";
 
 const Subscription = () => {
@@ -11,7 +12,7 @@ const Subscription = () => {
           Cualquier plan te da acceso completo a nuestra plataforma.
         </p>
       </div>
-      <div>
+      <Carousel className="pt-4">
         <SubscriptionCard
           recommended
           typePay="Pago Anual"
@@ -30,7 +31,7 @@ const Subscription = () => {
           price="199"
           saving="229"
         />
-      </div>
+      </Carousel>
     </section>
   );
 };

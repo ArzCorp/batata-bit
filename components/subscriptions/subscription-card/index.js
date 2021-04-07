@@ -14,7 +14,9 @@ const SubscriptionCard = ({ recommended, price, saving, typePay }) => {
     return "";
   };
   return (
-    <div className="min-w-min text-center font-inter">
+    <div
+      className={`${style.scrollEffect} min-w-min text-center font-inter mx-2`}
+    >
       <div className="w-48 pt-8 pb-6 px-4 mx-auto relative rounded-lg shadow-md bg-white">
         {isRecommended()}
         <h2 className="font-dm-sans text-sm font-medium leading-4 mb-4">

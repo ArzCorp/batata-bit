@@ -1,3 +1,7 @@
 .titleFloat {
   left: calc(50% - 64px);
 }
+
+.scrollEffect {
+  scroll-snap-align: center;
+}

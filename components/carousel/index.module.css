@@ -1,0 +1,4 @@
+.carousel {
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
