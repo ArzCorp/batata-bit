@@ -25,7 +25,7 @@ const Header = () => {
         className={`${style.iconFloat} bg-white-off p-4 absolute -bottom-6 min-w-min border-1 shadow-lg border-black-warm`}
       >
         <div className="w-60 flex justify-between items-center">
-          <Link href="/">
+          <Link href="/#subscriptions">
             <a className="text-black-warm font-bold">Conoce Nuestros Planes</a>
           </Link>
           <figure className="ml-3">
