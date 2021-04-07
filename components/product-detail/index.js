@@ -16,7 +16,7 @@ const ProductDetail = () => {
           Confiable y diseñado para su uso diario.
         </p>
       </div>
-      <div>
+      <div className="flex flex-col md:flex-row items-center justify-between flex-wrap w-full md:w-11/12 mx-auto">
         <ProductCard
           srcImage="/assets/icons/clock.svg"
           title="Tiempo real"
