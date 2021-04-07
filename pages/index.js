@@ -1,3 +1,5 @@
+import { Head } from "next/document";
+
 import Header from "../components/header";
 import ExchangeRate from "../components/exchange-rate";
 import ProductDetail from "../components/product-detail";
@@ -8,6 +10,9 @@ import Footer from "../components/footer";
 export default function Home() {
   return (
     <>
+      <head>
+        <title>Batatabit - home</title>
+      </head>
       <Header />
       <main>
         <ExchangeRate />
